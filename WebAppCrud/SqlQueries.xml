@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Queries>
+	<AddInformation>
+		<![CDATA[
+		INSERT INTO crudoperation.crudasptable(UserName, EmailID, MobileNumber, Salary, Gender) values(@UserName, @EmailID, @MobileNumber, @Salary, @Gender);
+		]]>
+	</AddInformation>
+</Queries>
